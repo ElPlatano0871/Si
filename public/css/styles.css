@@ -1,0 +1,245 @@
+body{
+    background-color:#0A4D68 ;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color:#05BFDB ;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    background-color:#088395 ;
+    border-radius: 8px;
+}
+
+.lore {
+    text-align: center;
+    background-color: #00FFCA;
+    border-radius: 8px;
+
+}
+
+.prologo {
+    padding: 10px;
+}
+
+#container {
+  display: inline-flex;
+}
+
+.pasiva {
+  display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #05BFDB;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-left: 15px;
+  }
+  
+  .pasiva img {
+    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  span {
+    margin: auto;
+  }
+  #recuadrop {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #05BFDB;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  #recuadrop::before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: 100%;
+    transform: translate(-50%, 0%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+  }
+
+  .habilidad1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #05BFDB;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  
+  .habilidad1 img {
+    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #recuadroq {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #05BFDB;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  #recuadroq::before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: 100%;
+    transform: translate(-50%, 0%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+  }
+
+  .habilidad2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #05BFDB;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  
+  .habilidad2 img {
+    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #recuadrow {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #05BFDB;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  #recuadrow::before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: 100%;
+    transform: translate(-50%, 0%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+  }
+
+  .habilidad3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #05BFDB;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  
+  .habilidad3 img {
+    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #recuadroe {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #05BFDB;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  #recuadroe::before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: 100%;
+    transform: translate(-50%, 0%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+  }
+
+  .habilidad4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #05BFDB;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  
+  .habilidad4 img {
+    margin-right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #recuadror {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #05BFDB;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  #recuadror::before {
+    content: "";
+    position: absolute;
+    left: 43%;
+    bottom: 100%;
+    transform: translate(-50%, 0%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+  }
+  
