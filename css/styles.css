@@ -243,3 +243,10 @@ header h1 {
     border-bottom: 10px solid #ccc;
   }
   
+  footer {
+
+    text-align: center;
+    color: #fff;
+    font: bold;
+    margin-top: auto;
+  }
